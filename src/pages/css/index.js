@@ -1,1 +1,1 @@
-export {default as Width} from './widht/widht' 
+export {default as Width} from './widht/width' 

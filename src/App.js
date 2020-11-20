@@ -1,7 +1,7 @@
 import './App.css'
 import React from 'react'
 import { HashRouter as Router, Link, Route } from 'react-router-dom'
-import { Menu, Button } from 'antd'
+import { Menu } from 'antd'
 import { Width } from './pages/css'
 import menuConfig from './menuConfig'
 
@@ -15,7 +15,7 @@ function App() {
               {menuConfig[groupTitle].map((itemTitle) => {
                 return (
                   <Menu.Item key={`${groupTitle}-${itemTitle}`}>
-                    <Link to="/css/width">{itemTitle}</Link>
+                    <Link to={`/${groupTitle}/${itemTitle}`}>{itemTitle}</Link>
                   </Menu.Item>
                 )
               })}
