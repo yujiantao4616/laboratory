@@ -1,8 +1,8 @@
-import './App.css'
+import './App.scss'
 import React from 'react'
 import { HashRouter as Router, Link, Route } from 'react-router-dom'
 import { Menu } from 'antd'
-import { Width } from './pages/css'
+import { Width, Animation, Transition } from './pages/css'
 import menuConfig from './menuConfig'
 
 function App() {
@@ -25,6 +25,8 @@ function App() {
       </Menu>
       <article>
         <Route component={Width} path='/css/width'></Route>
+        <Route component={Animation} path='/css/animation'></Route>
+        <Route component={Transition} path='/css/animation'></Route>
       </article>
     </Router>
   )

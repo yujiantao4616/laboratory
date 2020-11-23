@@ -1,4 +1,4 @@
 const menuConfig = {
-    css:['width']
+    css:['width','animation','transition']
 }
 export default menuConfig

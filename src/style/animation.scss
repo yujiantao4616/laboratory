@@ -1,0 +1,30 @@
+.animation-container {
+  padding: 28px;
+  .animation {
+    font-size: 64px;
+    text-align: center;
+    position: relative;
+  }
+  .animation-item {
+    animation-name: disorder;
+    position: relative;
+    left: 0;
+  }
+  .ant-select,
+  .ant-input {
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  @keyframes disorder {
+    0% {
+      left: 100px;
+    }
+    50% {
+      left: 0;
+    }
+    100% {
+      left: -100px;
+    }
+  }
+}

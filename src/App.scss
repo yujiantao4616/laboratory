@@ -1,0 +1,11 @@
+@import '~antd/dist/antd.css';
+@import './style/index.scss';
+html,
+body,
+#root,
+.ant-menu {
+  height: 100%;
+}
+#root {
+  display: flex;
+}

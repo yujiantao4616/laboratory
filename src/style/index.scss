@@ -1,0 +1,11 @@
+@import './width.scss';
+@import './animation.scss';
+article{
+    width: 100%;
+}
+
+.laboratory{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}

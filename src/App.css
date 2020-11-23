@@ -1,7 +1,0 @@
-@import '~antd/dist/antd.css';
-html,body,#root,.ant-menu{
-  height: 100%;
-}
-#root{
-  display: flex;
-}
